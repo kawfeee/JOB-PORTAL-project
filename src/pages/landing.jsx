@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Button } from '../components/ui/Button'
+import { Button } from '@/components/ui/button'
 import { Carousel, CarouselContent, CarouselItem } from '../components/ui/Carousel'
 import companies from '../data/companies.json'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/Accordion'
