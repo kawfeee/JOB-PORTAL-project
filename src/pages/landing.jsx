@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
-import { Carousel, CarouselContent, CarouselItem } from '../components/ui/Carousel'
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel'
 import companies from '../data/companies.json'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/Accordion'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import faq from '../data/faq.json'
 import Autoplay from 'embla-carousel-autoplay'
-import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/Card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 const LandingPage = () => {
   return (
